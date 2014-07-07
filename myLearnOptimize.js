@@ -165,8 +165,8 @@ function commonSort()
 function timeSort(my_set)
 {
     var homework0=[];
-	if(my_set==3) {myclick1=(myclick1+1)%2;}
-    else if(my_set==4) 	{myclick2=(myclick2+1)%2;}
+	if(my_set==4) {myclick1=(myclick1+1)%2;}
+    else if(my_set==5) 	{myclick2=(myclick2+1)%2;}
 	a.find('tr').each(function()
 	{
 	    $(this).removeClass("gray-bg");
@@ -177,7 +177,7 @@ function timeSort(my_set)
 	for(my_count=0;my_count<homework0.length;my_count++)
 	{ 
 	    var my_tr=homework0[my_count];;
-		if((my_set==3&&myclick1%2==1)||((my_set==4&&myclick2%2==1))){my_tr=homework0[homework0.length-1-my_count];} 
+		if((my_set==4&&myclick1%2==1)||((my_set==5&&myclick2%2==1))){my_tr=homework0[homework0.length-1-my_count];} 
 		a.append(my_tr);
 		if((my_count+1)%2==0) {my_tr.addClass("gray-bg");}
 		my_tr.find('td:eq(0)').text(my_count+1);
