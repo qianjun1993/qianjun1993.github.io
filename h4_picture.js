@@ -113,6 +113,8 @@ function showpicture()
         if(x < $("img").width()/2) {prepicture();}
 		else { nextpicture();}
     });
+	$('#pictures').find(".picture_info").mouseover(function(){$('#pictures').find(".picture_info").attr('style','opacity:1;')})
+	$('#pictures').find(".picture_info").mouseover(function(){$('#pictures').find(".picture_info").attr('style','opacity:.3;')})
 	loadjson('/h4_json2/page1.txt',2);
 	timer();
 }
