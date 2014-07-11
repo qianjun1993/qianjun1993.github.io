@@ -27,6 +27,7 @@ function myready()
 	});
 	$('#imgleft').click(precomment);
 	$('#imgright').click(nextcomment);
+	$('label').mouseenter($(this).click);
 }
 
 function timer()
@@ -121,7 +122,7 @@ function showpicture()
 		$('#pictures').find(".picture_info").attr('style','opacity:.3;');
 		timer();
 	})
-	if(localStorage.currentcomment) {$("input")[localStorage.currentcomment-1].checked = true;}
+	if(localStorage.currentpicture) {$("input")[localStorage.currentpicture-1].checked = true;}
 	if(!localStorage.currentcomment) {loadjson('/h4_json2/page1.txt',2);}
 	else 
 	{
