@@ -2,7 +2,7 @@
 var start;
 var tick = 0;
 var mytimer;
-$(document).ready(myready());
+$(document).ready(myready);
 var xmlhttp;
 var mycommentpage = new Array(20);
 var nowpage = 1;
