@@ -1,4 +1,4 @@
-{
+﻿{
   "count": 200,
   "news": [
     {
@@ -12,7 +12,7 @@
       "time": "2014-07-11",
       "name": "阿粉",
 	  "head portrait" : "http://www.maimaiqq.com/uploadfile/2012/0905/20120905045403279.png",
-	  "comment" : "我支持阿根廷，有种把我按在键ashfjaggadhfajshfasfafgashgfahsgfa"
+	  "comment" : "我支持阿根廷，有种把我按在键ashfjaggadhfajshfasfafgashgfahsgfa",
 	  "floor" : "189"
     },
 	{
@@ -33,7 +33,7 @@
       "time": "2014-07-11",
       "name": "希特勒",
 	  "head portrait" : "http://img3.imgtn.bdimg.com/it/u=414519423,129561696&fm=23&gp=0.jpg",
-	  "comment" : "支持德国，阿根廷必败" ,
+	  "comment" : "支持德国，阿根廷必败",
 	  "floor" : "186"
     },
 	{
@@ -70,7 +70,7 @@
 	  "head portrait" : "http://t12.baidu.com/it/u=3744792173,2938699498&fm=56",
 	  "comment" : "这次右没考好，只有99。。。" ,
 	  "floor" : "181"
-    },
+    }
     
   ]
 }
