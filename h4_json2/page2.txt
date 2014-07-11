@@ -33,7 +33,7 @@
             "time": "2014-07-11",
             "name": "元首",
             "headportrait": "picture/head/h22.jpg",
-            "comment": "支持德国，阿根廷必败",
+            "comment": "支持德国，阿根廷渣渣",
             "floor": "16"
         },
         {
