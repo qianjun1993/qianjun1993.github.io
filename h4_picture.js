@@ -19,7 +19,6 @@ function myready()
 	});
 	$("#m_comment").mouseenter(function()  
 	{
-		$("#m_comment").attr("style","right:-300px");
 		window.clearInterval(mytimer);
 	});
 	$("#m_comment").mouseleave(function()  //评论栏的消失函数
