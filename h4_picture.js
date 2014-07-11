@@ -8,13 +8,6 @@ var xmlpicture;
 function ready1()
 {
 	loadpicture("/h4_json1.txt");
-	console.log($("img"));
-	$("img").click(function(e) 
-	{
-		var x = e.offsetX;
-        if(x < $("img").width()/2) {prepicture();}
-		else { nextpicture();}
-    });
 	$("[name = 'myradio']").change(function() 
 	{
 		start = new Date;
@@ -103,5 +96,11 @@ function setpicture()
 					   +'</a></div><img src="' + pictureJson.picture[i].address +'"  ></div>';
 		$('#pictures').append(thispicture);
 	}
+	$("img").click(function(e) 
+	{
+		var x = e.offsetX;
+        if(x < $("img").width()/2) {prepicture();}
+		else { nextpicture();}
+    });
 }
 
