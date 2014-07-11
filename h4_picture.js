@@ -10,9 +10,17 @@ var nowpage = 1;
 function myready()
 {
 	console.log($("#mousetest"));
-	$("#mousetest").mouseenter(function(){$("#m_comment").attr("style","right:0px");});
+	$("#mousetest").mouseenter(function()
+	{
+		$("#m_comment").attr("style","right:0px");
+		clearInterval(mytimer) ;
+	});
 	console.log($("#m_comment"));
-	$("#m_comment").mouseleave(function(){$("#m_comment").attr("style","right:-300px");});
+	$("#m_comment").mouseleave(function()
+	{
+		$("#m_comment").attr("style","right:-300px");
+		timer();
+	});
 	loadjson("/h4_json1.txt",1);
 	$("[name = 'myradio']").change(function() 
 	{
