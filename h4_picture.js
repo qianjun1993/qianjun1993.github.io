@@ -19,6 +19,8 @@ function myready()
 		start = new Date;
 		tick = 0;
 	});
+	$('#imgleft').click(precomment);
+	$('#imgright').click(nextcomment);
 }
 
 function timer()
@@ -67,7 +69,7 @@ function loadjson(url,check)
 	if (xmlhttp != null)
 	{
 		if(check == 1) {xmlhttp.onreadystatechange = state_Change_picture;}
-		else if(check == 2) {xmlhttp.onreadystatechange = state_Change_comment;}
+		else if(check == 2) { xmlhttp . onreadystatechange = state_Change_comment;}
 		xmlhttp.open("GET",url,true);
 		xmlhttp.send(null);
 	}
@@ -118,12 +120,34 @@ function state_Change_comment()
 function showcomment()
 {
 	var commentJson = JSON.parse(xmlhttp.responseText);
-	for(var i = 0 ; i < pictureJson.comment.length; i++)
+	for(var i = 0 ; i < commentJson.comment.length; i++)
 	{
+		var thetime=commentJson[i].time.slice(0,4)+'年'+commentJson[i].time.slice(5,7)+'月'+commentJson[i].time.slice(8,10)+'日';
 		var thiscomment= '<div id = "comments"><div class = "one_comment"><div class = "comment-left"><img src="'
-		               + '" ><p class = "comment-info">' + '</p></div><div class = "comment-right"><p class = "comment-info">'
-					   + '楼   2014年7月11日</p><p class="comment-text">' + '</p></div></div>';
+		               + commentJson[i].headportrait'" ><p class = "comment-info">' + commentJson[i].headportrait.name  
+					   + '</p></div><div class = "comment-right"><p class = "comment-info">'
+					   + commentJson[i]+ '楼    ' + thetime+'</p><p class="comment-text">' + '</p></div></div>';
 		$('.commentbuttom').before(thiscomment);
+	}
+}
+
+function precomment()
+{
+	if(nowpage > 1)
+	{
+		nowpage++;
+		if(!mycommentpage[nowpage - 1]) {loadjson('/h4_json2/page'+nowpage+'.txt',2);}
+		$('.commentbuttomtext').text(nowpage + '/20');
+	}
+}
+
+function nextcomment()
+{
+	if(nowpage < 20)
+	{
+		nowpage++;
+		if(!mycommentpage[nowpage - 1]) {loadjson('/h4_json2/page'+nowpage+'.txt',2);}
+		$('.commentbuttomtext').text(nowpage + '/20');
 	}
 }
 
