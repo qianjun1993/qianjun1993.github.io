@@ -30,4 +30,5 @@
 		"title" : "1/4决赛 德国1-0法国",
 		"link" : "http://2014.ifeng.com/pic/r/detail_2014_07/05/37177927_0.shtml"
 	}
+]
 }
