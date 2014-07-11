@@ -25,14 +25,14 @@
         {
             "time": "2014-07-11",
             "name": "小黄",
-            "headportrait": "picture/head/h2.jpg",
+            "headportrait": "picture/head/h12.jpg",
             "comment": "挺德国",
             "floor": "17"
         },
         {
             "time": "2014-07-11",
-            "name": "希特勒",
-            "headportrait": "picture/head/h12.jpg",
+            "name": "元首",
+            "headportrait": "picture/head/h22.jpg",
             "comment": "支持德国，阿根廷必败",
             "floor": "16"
         },
