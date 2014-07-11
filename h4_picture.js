@@ -13,7 +13,7 @@ function myready()
 	$("#mousetest").mouseenter(function()
 	{
 		$("#m_comment").attr("style","right:0px");
-		clearInterval(mytimer) ;
+		window.clearInterval(mytimer) ;
 	});
 	console.log($("#m_comment"));
 	$("#m_comment").mouseleave(function()
