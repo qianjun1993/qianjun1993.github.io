@@ -113,11 +113,14 @@ function showpicture()
         if(x < $("img").width()/2) {prepicture();}
 		else { nextpicture();}
     });
-	$('#pictures').find(".picture_info").mouseover(function(){
+	$('#pictures').find(".picture_info").mouseenter(function(){
 		$('#pictures').find(".picture_info").attr('style','opacity:1;');
-		console.log($('#pictures').find(".picture_info"));})
-	$('#pictures').find(".picture_info").mouseover(function(){
-		$('#pictures').find(".picture_info").attr('style','opacity:.3;');})
+		window.clearInterval(mytimer);
+	})
+	$('#pictures').find(".picture_info").mouseenter(function(){
+		$('#pictures').find(".picture_info").attr('style','opacity:.3;');
+		timer();
+	})
 	loadjson('/h4_json2/page1.txt',2);
 	timer();
 }
