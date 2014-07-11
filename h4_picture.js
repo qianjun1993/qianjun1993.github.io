@@ -7,13 +7,14 @@ var xmlpicture;
 
 function ready1()
 {
+	$("#mousetest").mouseenter(function(){$("#m_comment").attr("style","right:0px");});
+	$("#m_comment").mouseleave(function(){$("#m_comment").attr("style","right:-300px");});
 	loadpicture("/h4_json1.txt");
 	$("[name = 'myradio']").change(function() 
 	{
 		start = new Date;
 		tick = 0;
 	});
-	timer();
 }
 
 function timer()
@@ -102,5 +103,6 @@ function setpicture()
         if(x < $("img").width()/2) {prepicture();}
 		else { nextpicture();}
     });
+	timer();
 }
 
