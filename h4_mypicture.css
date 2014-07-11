@@ -175,6 +175,12 @@ body{
 	font-size:12px;
 }
 
+.comment-name{
+	padding:10px;
+	font-size:12px;
+	text-align:center;
+}
+
 
 #mousetest
 {
