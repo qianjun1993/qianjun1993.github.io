@@ -136,7 +136,7 @@ function precomment()
 {
 	if(nowpage > 1)
 	{
-		nowpage++;
+		nowpage--;
 		if(!mycommentpage[nowpage - 1]) {loadjson('/h4_json2/page'+nowpage+'.txt',2);}
 		$('.commentbuttomtext').text(nowpage + '/20');
 	}
@@ -146,7 +146,7 @@ function nextcomment()
 {
 	if(nowpage < 20)
 	{
-		nowpage--;
+		nowpage++;
 		if(!mycommentpage[nowpage - 1]) {loadjson('/h4_json2/page'+nowpage+'.txt',2);}
 		$('.commentbuttomtext').text(nowpage + '/20');
 	}
