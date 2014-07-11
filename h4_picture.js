@@ -15,7 +15,12 @@ function myready()
 	$("#mousetest").mouseenter(function()  //评论栏的出现函数
 	{
 		$("#m_comment").attr("style","right:0px");
-		window.clearInterval(mytimer) ;
+		window.clearInterval(mytimer);
+	});
+	$("#m_comment").mouseenter(function()  
+	{
+		$("#m_comment").attr("style","right:-300px");
+		window.clearInterval(mytimer);
 	});
 	$("#m_comment").mouseleave(function()  //评论栏的消失函数
 	{
