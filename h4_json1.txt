@@ -2,32 +2,32 @@
     "picture" : 
 	[
 	{
-	    "address" :"http://y0.ifengimg.com/2014/0710/wm_2b1d0c4936cc2142a0f3eff0a25663a4.jpg",
+	    "address" :"/picture/h4(1).jpg",
 		"title" : "半决赛 -点球大战 阿根廷4-2荷兰",
 		"link" : "http://2014.ifeng.com/pic/r/detail_2014_07/10/37257543_0.shtml"
 	},
 	{
-	    "address" :"http://y0.ifengimg.com/2014/0709/wm_7ee23c9b840f9fda671d6d4babe52151.jpg",
+	    "address" :"/picture/h4(2).jpg",
 		"title" : "半决赛 巴西1-7德国",
 		"link" : "http://2014.ifeng.com/pic/r/detail_2014_07/09/37236192_0.shtml"
 	},
 	{
-	    "address" :"http://y1.ifengimg.com/2014/0706/wm_4c51425f695615fee804e6cc5419045d.jpg",
+	    "address" :"/picture/h4(3).jpg",
 		"title" : "1/4决赛-点球大战 荷兰4-3哥斯达黎加",
 		"link" : "http://2014.ifeng.com/pic/r/detail_2014_07/06/37188914_0.shtml"
 	},
 	{
-	    "address" :"http://y2.ifengimg.com/2014/0706/wm_ae34d2e5e397ce2327ef325076189263.jpg",
+	    "address" :"/picture/h4(4).jpg",
 		"title" : "1/4决赛 阿根廷1-0比利时",
 		"link" : "http://2014.ifeng.com/pic/r/detail_2014_07/06/37187298_0.shtml"
 	},
 	{
-	    "address" :"http://y0.ifengimg.com/2014/0705/wm_20d4a16d42cc73c1698cf58994e1f29e.jpg",
+	    "address" :"/picture/h4(5).jpg",
 		"title" : "1/4决赛 巴西2-1哥伦比亚",
 		"link" : "http://2014.ifeng.com/pic/r/detail_2014_07/05/37180211_0.shtml"
 	},
 	{
-	    "address" :"http://y3.ifengimg.com/2014/0705/wm_f913c5f72a57019d9771a2e9ff9d99f8.jpg",
+	    "address" :"/picture/h4(6).jpg",
 		"title" : "1/4决赛 德国1-0法国",
 		"link" : "http://2014.ifeng.com/pic/r/detail_2014_07/05/37177927_0.shtml"
 	}
