@@ -1,76 +1,75 @@
 ﻿{
-  "count": 200,
-  "news": [
-    {
-      "time": "2014-07-11",
-      "name": "我是背景",
-	  "headportrait" : "http://p2.qqgexing.com/kongjianpifu/20120820/1411/5031d51939b4a_256x.jpg",
-	  "comment" : "丧（干）心（得）病（漂）狂（亮）",
-	  "floor" : "190"
-    },
-	{
-      "time": "2014-07-11",
-      "name": "阿粉",
-	  "headportrait" : "http://www.maimaiqq.com/uploadfile/2012/0905/20120905045403279.png",
-	  "comment" : "我支持阿根廷，有种把我按在键ashfjaggadhfajshfasfafgashgfahsgfa",
-	  "floor" : "189"
-    },
-	{
-      "time": "2014-07-11",
-      "name": "小苹果",
-	  "headportrait" : "http://www.qqw21.com/article/uploadpic/2012-12/2012122185935318.jpg",
-	  "comment" : "今天吃了小苹果，感觉自己萌萌哒。" ,
-	  "floor" : "188"
-    },
-	{
-      "time": "2014-07-11",
-      "name": "小黄",
-	  "headportrait" : "http://wanzao2.b0.upaiyun.com/system/avatars/104903/original/avatar_1357023973.png",
-	  "comment" : "挺德国" ,
-	  "floor" : "187"
-    },
-	{
-      "time": "2014-07-11",
-      "name": "希特勒",
-	  "headportrait" : "http://img3.imgtn.bdimg.com/it/u=414519423,129561696&fm=23&gp=0.jpg",
-	  "comment" : "支持德国，阿根廷必败",
-	  "floor" : "186"
-    },
-	{
-      "time": "2014-07-11",
-      "name": "俾斯麦",
-	  "headportrait" : "http://img2.imgtn.bdimg.com/it/u=3052309851,3045711687&fm=23&gp=0.jpg",
-	  "comment" : "支持德国" ,
-	  "floor" : "185"
-    },
-	{
-      "time": "2014-07-10",
-      "name": "周伯通",
-	  "headportrait" : "http://wenwen.soso.com/p/20091225/20091225112537-1676370895.jpg",
-	  "comment" : "学习热情不够！" ,
-	  "floor" : "184"
-    },
-	{
-      "time": "2014-07-10",
-      "name": "胖纸",
-	  "headportrait" : "http://img0.imgtn.bdimg.com/it/u=3471179193,4010271583&fm=23&gp=0.jpg",
-	  "comment" : "征男友" ,
-	  "floor" : "183"
-    },
-	{
-      "time": "2014-07-10",
-      "name": "高密的赵雷",
-	  "headportrait" : "http://hdn.xnimg.cn/photos/hdn421/20140208/1655/h_large_HtjC_87cb0000d74a113e.jpg",
-	  "comment" : "23333" ,
-	  "floor" : "182"
-    },
-	{
-      "time": "2014-07-10",
-      "name": "某某队长",
-	  "headportrait" : "http://t12.baidu.com/it/u=3744792173,2938699498&fm=56",
-	  "comment" : "这次右没考好，只有99。。。" ,
-	  "floor" : "181"
-    }
-    
-  ]
+    "count": 200,
+    "news": [
+        {
+            "time": "2014-07-11",
+            "name": "我是背景",
+            "headportrait": "picture/head/h11.jpg",
+            "comment": "丧（干）心（得）病（漂）狂（亮）",
+            "floor": "190"
+        },
+        {
+            "time": "2014-07-11",
+            "name": "阿粉",
+            "headportrait": "picture/head/h4.jpg",
+            "comment": "我支持阿根廷，有种把我按在键ashfjaggadhfajshfasfafgashgfahsgfa",
+            "floor": "189"
+        },
+        {
+            "time": "2014-07-11",
+            "name": "小苹果",
+            "headportrait": "picture/head/h3.jpg",
+            "comment": "今天吃了小苹果，感觉自己萌萌哒。",
+            "floor": "188"
+        },
+        {
+            "time": "2014-07-11",
+            "name": "小黄",
+            "headportrait": "picture/head/h2.jpg",
+            "comment": "挺德国",
+            "floor": "187"
+        },
+        {
+            "time": "2014-07-11",
+            "name": "希特勒",
+            "headportrait": "picture/head/h5.jpg",
+            "comment": "支持德国，阿根廷必败",
+            "floor": "186"
+        },
+        {
+            "time": "2014-07-11",
+            "name": "俾斯麦",
+            "headportrait": "picture/head/h12.jpg",
+            "comment": "支持德国",
+            "floor": "185"
+        },
+        {
+            "time": "2014-07-10",
+            "name": "周伯通",
+            "headportrait": "picture/head/h7.jpg",
+            "comment": "学习热情不够！",
+            "floor": "184"
+        },
+        {
+            "time": "2014-07-10",
+            "name": "胖纸",
+            "headportrait": "picture/head/h8.jpg",
+            "comment": "征男友",
+            "floor": "183"
+        },
+        {
+            "time": "2014-07-10",
+            "name": "高密的赵雷",
+            "headportrait": "picture/head/h9.jpg",
+            "comment": "23333",
+            "floor": "182"
+        },
+        {
+            "time": "2014-07-10",
+            "name": "某某队长",
+            "headportrait": "picture/head/h13.jpg",
+            "comment": "这次右没考好，只有99。。。",
+            "floor": "181"
+        }
+    ]
 }
