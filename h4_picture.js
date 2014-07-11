@@ -119,7 +119,8 @@ function showpicture()
 		$('#pictures').find(".picture_info").attr('style','opacity:.3;');
 		timer();
 	})
-	loadjson('/h4_json2/page1.txt',2);
+	if(!localStorage.currentcomment) {loadjson('/h4_json2/page1.txt',2);}
+	else {loadjson('/h4_json2/page'+localStorage.currentcomment+'.txt',2);}
 	timer();
 }
 
@@ -155,6 +156,7 @@ function precomment()
 		nowpage--;
 		if(!mycommentpage[nowpage - 1]) {loadjson('/h4_json2/page'+nowpage+'.txt',2);}
 		$('.commentbuttomtext').text(nowpage + '/20');
+		localStorage.currentcomment=nowpage;
 	}
 }
 
@@ -165,6 +167,7 @@ function nextcomment()
 		nowpage++;
 		if(!mycommentpage[nowpage - 1]) {loadjson('/h4_json2/page'+nowpage+'.txt',2);}
 		$('.commentbuttomtext').text(nowpage + '/20');
+		localStorage.currentcomment=nowpage;
 	}
 }
 
