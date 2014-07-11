@@ -51,8 +51,7 @@ function nextpicture()
 	else {$("input:checked").next('input')[0].checked = true;}
 	start = new Date;	
 	tick = 0;
-	localStorage.currentpicture++;
-	if(localStorage.currentpicture > 6)	{localStorage.currentpicture = 1;}
+	localStorage.currentpicture=$("input:checked").prev('input').length()+1;
 }
 
 function prepicture()
@@ -61,8 +60,7 @@ function prepicture()
 	else {$("input:checked").prev('input')[0].checked = true;}
 	start = new Date;
 	tick = 0	;
-	localStorage.currentpicture--;
-	if(localStorage.currentpicture < 1)	{localStorage.currentpicture = 0;}
+	localStorage.currentpicture=$("input:checked").prev('input').length()+1;
 }
 
 function loadjson(url,check)
