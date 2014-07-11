@@ -124,7 +124,8 @@ function showcomment()
 	{
 		var thetime=commentJson.comment[i].time.slice(0,4)+'年'+commentJson.comment[i].time.slice(5,7)+'月'+commentJson.comment[i].time.slice(8,10)+'日';
 		var thiscomment= '<div id = "comments"><div class = "one_comment"><div class = "comment-left"><img src="'
-		               + commentJson.comment[i].headportrait'" ><p class = "comment-info">' + commentJson.comment[i].headportrait.name  
+		               + commentJson.comment[i].headportrait +'" ><p class = "comment-info">' 
+					   + commentJson.comment[i].headportrait.name  
 					   + '</p></div><div class = "comment-right"><p class = "comment-info">'
 					   + commentJson.comment[i].floor + '楼    ' + thetime+'</p><p class="comment-text">' + '</p></div></div>';
 		$('.commentbuttom').before(thiscomment);
