@@ -12,7 +12,7 @@
             "time": "2014-07-11",
             "name": "阿粉",
             "headportrait": "picture/head/h4.jpg",
-            "comment": "我支持阿根廷，有种把我按在键ashfjaggadhfajshfasfafgashgfahsgfa",
+            "comment": "我支持阿根廷，有种把我按在键ashfjaggadhfajshfasfafg",
             "floor": "189"
         },
         {
