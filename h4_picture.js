@@ -9,7 +9,6 @@ var nowpage = 1;
 
 function myready()
 {
-	console.log($("#mousetest"));
 	$("#mousetest").mouseenter(function()
 	{
 		$("#m_comment").attr("style","right:0px");
@@ -20,6 +19,7 @@ function myready()
 		$("#m_comment").attr("style","right:-300px");
 		timer();
 	});
+	loadjson("/h4_json1.txt",1);
 	$("[name = 'myradio']").change(function() 
 	{
 		start = new Date;
@@ -115,7 +115,7 @@ function showpicture()
 		$('#pictures').find(".picture_info").attr('style','opacity:1;');
 		window.clearInterval(mytimer);
 	})
-	$('#pictures').find(".picture_info").mouseleave(function(){
+	$('#pictures').find(".picture_info").mouse(function(){
 		$('#pictures').find(".picture_info").attr('style','opacity:.3;');
 		timer();
 	})
