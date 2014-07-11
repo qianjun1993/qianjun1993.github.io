@@ -1,15 +1,19 @@
 // JavaScript Document
 var start;
-var tick=0;
+var tick = 0;
 var mytimer;
-$(document).ready(ready1());
-var xmlpicture;
+$(document).ready(myready());
+var xmlhttp;
+var mycommentpage = new Array(20);
+var nowpage = 1;
 
-function ready1()
+function myready()
 {
+	console.log($("#mousetest"));
 	$("#mousetest").mouseenter(function(){$("#m_comment").attr("style","right:0px");});
+	console.log($("#m_comment"));
 	$("#m_comment").mouseleave(function(){$("#m_comment").attr("style","right:-300px");});
-	loadpicture("/h4_json1.txt");
+	loadjson("/h4_json1.txt",1);
 	$("[name = 'myradio']").change(function() 
 	{
 		start = new Date;
@@ -49,20 +53,21 @@ function prepicture()
 	tick = 0	;
 }
 
-function loadpicture(url)
+function loadjson(url,check)
 {
-	xmlpicture = null;
+	xmlhttp = null;
 	if (window.XMLHttpRequest)
 	{// code for IE7, Firefox, Opera, etc
 	xmlpicture = new XMLHttpRequest();
 	}
 	else if (window.ActiveXObject)
 	{// code for IE6, IE5
-	xmlpicture = new ActiveXObject("Microsoft.XMLHTTP");
+	xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
 	}
-	if (xmlpicture != null)
+	if (xmlhttp != null)
 	{
-		xmlpicture.onreadystatechange = state_Change_picture;
+		if(check == 1) {xmlhttp.onreadystatechange = state_Change_picture;}
+		else if(check == 2) {xmlhttp.onreadystatechange = state_Change_comment;}
 		xmlpicture.open("GET",url,true);
 		xmlpicture.send(null);
 	}
@@ -74,22 +79,17 @@ function loadpicture(url)
 
 function state_Change_picture()
 {
-	if (xmlpicture.readyState == 4)
+	if (xmlhttp.readyState == 4)
 	{
-		if (xmlpicture.status == 200)
-		{
-			setpicture();
-		}
+		if (xmlhttp.status == 200) { showpicture();}
 		else
-		{
-			alert("Problem retrieving XML data:" + xmlhttp.statusText);
-		}
+		{ alert("Problem retrieving XML data:" + xmlhttp.statusText); }
 	}
 }
 
-function setpicture()
+function showpicture()
 {
-	var pictureJson = JSON.parse(xmlpicture.responseText);
+	var pictureJson = JSON.parse(xmlhttp.responseText);
 	for(var i = 0 ; i < pictureJson.picture.length; i++)
 	{
 		var thispicture = '<div class = "one_picture"><div class = "picture_info"><a href = "'
@@ -104,5 +104,26 @@ function setpicture()
 		else { nextpicture();}
     });
 	timer();
+}
+
+function state_Change_comment()
+{
+	if (xmlhttp.readyState == 4)
+	{
+		if (xmlhttp.status == 200) {showcomment();}
+		else {alert("Problem retrieving XML data:" + xmlhttp.statusText);}
+	}
+}
+
+function showcomment()
+{
+	var commentJson = JSON.parse(xmlhttp.responseText);
+	for(var i = 0 ; i < pictureJson.comment.length; i++)
+	{
+		var thiscomment= '<div id = "comments"><div class = "one_comment"><div class = "comment-left"><img src="'
+		               + '" ><p class = "comment-info">' + '</p></div><div class = "comment-right"><p class = "comment-info">'
+					   + '楼   2014年7月11日</p><p class="comment-text">' + '</p></div></div>';
+		$('.commentbuttom').before(thiscomment);
+	}
 }
 
