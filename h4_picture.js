@@ -128,7 +128,7 @@ function showcomment()
 					   + commentJson.comment[i].headportrait.name  
 					   + '</p></div><div class = "comment-right"><p class = "comment-info">'
 					   + commentJson.comment[i].floor + '楼    ' + thetime+'</p><p class="comment-text">' + '</p></div>';
-		$('.comments').append(thiscomment);
+		$('#comments').append(thiscomment);
 	}
 }
 
