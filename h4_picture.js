@@ -107,7 +107,7 @@ function showpicture()
 					   +'</a></div><img src="' + pictureJson.picture[i].address +'"  ></div>';
 		$('#pictures').append(thispicture);
 	}
-	$("img").click(function(e) 
+	$('#pictures').find("img").click(function(e) 
 	{
 		var x = e.offsetX;
         if(x < $("img").width()/2) {prepicture();}
