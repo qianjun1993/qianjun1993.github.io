@@ -50,7 +50,9 @@ function nextpicture()
 	if($("input:checked").next('input').length == 0) {$("input:first")[0].checked = true;}
 	else {$("input:checked").next('input')[0].checked = true;}
 	start = new Date;	
-	tick = 0;	
+	tick = 0;
+	localStorage.currentpicture++;
+	if(localStorage.currentpicture > 6)	{localStorage.currentpicture = 1;}
 }
 
 function prepicture()
@@ -59,6 +61,8 @@ function prepicture()
 	else {$("input:checked").prev('input')[0].checked = true;}
 	start = new Date;
 	tick = 0	;
+	localStorage.currentpicture--;
+	if(localStorage.currentpicture < 1)	{localStorage.currentpicture = 0;}
 }
 
 function loadjson(url,check)
@@ -119,7 +123,7 @@ function showpicture()
 		$('#pictures').find(".picture_info").attr('style','opacity:.3;');
 		timer();
 	})
-	
+	if(localStorage.currentcomment) {$("input:checked").prev('input')[currentcomment-1].checked = true;}
 	if(!localStorage.currentcomment) {loadjson('/h4_json2/page1.txt',2);}
 	else 
 	{
