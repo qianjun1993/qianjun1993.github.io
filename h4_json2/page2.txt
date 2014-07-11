@@ -1,4 +1,4 @@
-﻿{
+﻿ {
     "count": 200,
     "comment": [
         {
@@ -32,14 +32,14 @@
         {
             "time": "2014-07-11",
             "name": "希特勒",
-            "headportrait": "picture/head/h5.jpg",
+            "headportrait": "picture/head/h12.jpg",
             "comment": "支持德国，阿根廷必败",
             "floor": "186"
         },
         {
             "time": "2014-07-11",
             "name": "俾斯麦",
-            "headportrait": "picture/head/h12.jpg",
+            "headportrait": "picture/head/h5.jpg",
             "comment": "支持德国",
             "floor": "185"
         },
