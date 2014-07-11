@@ -119,7 +119,7 @@ function showpicture()
 		$('#pictures').find(".picture_info").attr('style','opacity:.3;');
 		timer();
 	})
-	if(!localStorage.currentcomment) {loadjson('/h4_json2/page1.txt',2);}
+	if(!localStorage.currentcomment) {alert(localStorage.currentcomment);  loadjson('/h4_json2/page1.txt',2);}
 	else {loadjson('/h4_json2/page'+localStorage.currentcomment+'.txt',2);}
 	timer();
 }
