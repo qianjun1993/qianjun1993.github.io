@@ -35,6 +35,9 @@ body{
 	width: 1000px;
 	opacity: 0;
 	-webkit-transition: opacity 1s ease-out; 
+	transition: opacity 1s ease-out; 
+	-moz-transition: opacity 1s ease-out; 
+	-o-transition: opacity 1s ease-out;
 	z-index:2;
 }
 
@@ -95,7 +98,10 @@ body{
 	margin:3px;
 	background:#999;
 	overflow: hidden;
-	-webkit-transition: background .5s linear;
+	-webkit-transition: background .5s linear; 
+	transition: background .5s linear;
+	-moz-transition: background .5s linear;
+	-o-transition: background .5s linear;
 	z-index:4;
 }
 
@@ -116,6 +122,10 @@ body{
 	overflow: hidden;
 	position:absolute;
 	z-index:4;
+	-webkit-transition: right 1s ease-out; 
+	transition:right 1s ease-out;
+	-moz-transition:right 1s ease-out;
+	-o-transition:right 1s ease-out;
 	background-image:url(picture/h4-background3.png);
 }
 
