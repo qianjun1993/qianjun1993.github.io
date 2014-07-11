@@ -7,6 +7,8 @@ var xmlpicture;
 
 function ready1()
 {
+	loadpicture("/h4_json1.txt");
+	console.log($("img"));
 	$("img").click(function(e) 
 	{
 		var x = e.offsetX;
@@ -19,7 +21,6 @@ function ready1()
 		tick = 0;
 	});
 	timer();
-	loadpicture("/h4_json1.txt");
 }
 
 function timer()
