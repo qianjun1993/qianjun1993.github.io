@@ -58,7 +58,7 @@ function loadjson(url,check)
 	xmlhttp = null;
 	if (window.XMLHttpRequest)
 	{// code for IE7, Firefox, Opera, etc
-	xmlpicture = new XMLHttpRequest();
+	xmlhttp = new XMLHttpRequest();
 	}
 	else if (window.ActiveXObject)
 	{// code for IE6, IE5
@@ -68,8 +68,8 @@ function loadjson(url,check)
 	{
 		if(check == 1) {xmlhttp.onreadystatechange = state_Change_picture;}
 		else if(check == 2) {xmlhttp.onreadystatechange = state_Change_comment;}
-		xmlpicture.open("GET",url,true);
-		xmlpicture.send(null);
+		xmlhttp.open("GET",url,true);
+		xmlhttp.send(null);
 	}
 	else
 	{
