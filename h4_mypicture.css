@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,input,textarea,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,i,em{margin:0;padding:0;font-style:normal;}
+body{
+	background-color:#FFF;
+	overflow-x: hidden;
+}
+
+#mybody{
+	width: 1000px;
+	margin:  auto;
+	overflow: hidden;
+}
+
+#m_picture{
+	position:relative;
+	width: 1000px;
+	margin:  auto;
+	overflow: hidden;
+	height:640px ;
+} 
+
+#pictures{
+	width: 100%;
+	margin: auto;
+	height:100% ; 
+} 
+
+#pictures .one_picture{ 
+	top:0px;
+	position:absolute;
+	width: 1000px;
+	opacity: 0;
+	-webkit-transition: opacity 1s ease-out; 
+	z-index:2;
+}
+
+#pictures .one_picture .picture_info{
+	position: absolute; 
+	margin:30px;
+	padding:5px;
+	font-family: Arial; 
+	z-index:4;
+	opacity: 0.5;
+	text-decoration: none; 
+	font-weight:600;
+	font-size:18px;
+	color:#FFF;
+	background-color:#000;
+} 
+
+.picture_info a{
+	text-decoration: none; 
+	color:#FFF;
+}
+
+#radio1:checked ~ #pictures .one_picture:nth-child(1), 
+#radio2:checked ~ #pictures .one_picture:nth-child(2), 
+#radio3:checked ~ #pictures .one_picture:nth-child(3), 
+#radio4:checked ~ #pictures .one_picture:nth-child(4), 
+#radio5:checked ~ #pictures .one_picture:nth-child(5),
+#radio6:checked ~ #pictures .one_picture:nth-child(6){
+	opacity: 1;
+} 
+
+
+#pictures img{
+	width:1000px;
+	height:640px;
+	overflow: hidden;
+	cursor:pointer;
+	
+}
+#m_picture [name="myradio"]{
+	display:none;
+}
+#myRadioDiv{
+	position:absolute;
+	top:10px;
+	right:30px;
+	float:right;
+}
+
+#m_picture .trigger {
+	cursor: pointer;
+	position: relative;
+	float: left;
+	width: 8px; 
+	height: 15px;
+	margin:3px;
+	background:#999;
+	overflow: hidden;
+	-webkit-transition: background .5s linear;
+	z-index:4;
+}
+
+#radio1:checked ~ #myRadioDiv .trigger:nth-child(1),
+#radio2:checked ~ #myRadioDiv .trigger:nth-child(2),
+#radio3:checked ~ #myRadioDiv .trigger:nth-child(3),
+#radio4:checked ~ #myRadioDiv .trigger:nth-child(4),
+#radio5:checked ~ #myRadioDiv .trigger:nth-child(5),
+#radio6:checked ~ #myRadioDiv .trigger:nth-child(6){ 
+   background:#000 ;
+}
+
+
+
