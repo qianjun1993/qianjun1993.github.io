@@ -115,7 +115,7 @@ function showpicture()
 		$('#pictures').find(".picture_info").attr('style','opacity:1;');
 		window.clearInterval(mytimer);
 	})
-	$('#pictures').find(".picture_info").mouse(function(){
+	$('#pictures').find(".picture_info").mouseleave(function(){
 		$('#pictures').find(".picture_info").attr('style','opacity:.3;');
 		timer();
 	})
