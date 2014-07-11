@@ -7,7 +7,7 @@ var mytimer;
 $(document).ready(myready);
 //下面为页面信息存储
 var xmlhttp;
-var mycommentpage = new Array(20);
+var mycommentpage = new Array(3);
 var nowpage = 1;
 
 function myready()
@@ -131,7 +131,7 @@ function showpicture()    //显示图片
 	{
 		loadjson('/h4_json2/page'+localStorage.currentcomment+'.txt',2);
 		nowpage = localStorage.currentcomment;
-		$('.commentbuttomtext').text(nowpage + '/20'); 
+		$('.commentbuttomtext').text(nowpage + '/3'); 
 	}
 	timer();
 }
@@ -167,19 +167,19 @@ function precomment()  //评论上一页
 	if(nowpage > 1)
 	{
 		nowpage--;
-		if(!mycommentpage[nowpage - 1]) {loadjson('/h4_json2/page'+nowpage+'.txt',2);}
-		$('.commentbuttomtext').text(nowpage + '/20');
+		if(!mycommentpage[nowpage - 1]) {loadjson('/h4_json2/page'+nowpage+'.txt',2);} //异步刷新
+		$('.commentbuttomtext').text(nowpage + '/3');
 		localStorage.currentcomment=nowpage;
 	}
 }
 
 function nextcomment() //评论下一页
 {
-	if(nowpage < 20)
+	if(nowpage < 3)
 	{
 		nowpage++;
 		if(!mycommentpage[nowpage - 1]) {loadjson('/h4_json2/page'+nowpage+'.txt',2);}
-		$('.commentbuttomtext').text(nowpage + '/20');
+		$('.commentbuttomtext').text(nowpage + '/3');
 		localStorage.currentcomment=nowpage;
 	}
 }

@@ -1,75 +1,75 @@
 ﻿{
-    "count": 200,
+    "count": 30,
     "comment": [
         {
             "time": "2014-07-11",
             "name": "路人乙",
             "headportrait": "picture/head/h1.jpg",
             "comment": "德国队必胜。",
-            "floor": "200"
+            "floor": "30"
         },
         {
             "time": "2014-07-11",
             "name": "路人甲",
             "headportrait": "picture/head/h2.jpg",
             "comment": "梅西万岁。",
-            "floor": "199"
+            "floor": "29"
         },
         {
             "time": "2014-07-11",
             "name": "小苹果",
             "headportrait": "picture/head/h3.jpg",
             "comment": "今天吃了小苹果，感觉自己萌萌哒。",
-            "floor": "198"
+            "floor": "28"
         },
         {
             "time": "2014-07-11",
             "name": "呵呵",
             "headportrait": "picture/head/h4.jpg",
             "comment": "呵呵。",
-            "floor": "197"
+            "floor": "27"
         },
         {
             "time": "2014-07-11",
             "name": "五毛",
             "headportrait": "picture/head/h5.jpg",
             "comment": "*********************",
-            "floor": "196"
+            "floor": "26"
         },
         {
             "time": "2014-07-11",
             "name": " 战五渣",
             "headportrait":"picture/head/h6.jpg",
             "comment": "渣渣",
-            "floor": "195"
+            "floor": "25"
         },
         {
             "time": "2014-07-11",
             "name": "大包夜",
             "headportrait": "picture/head/h7.jpg",
             "comment": "+2",
-            "floor": "194"
+            "floor": "24"
         },
         {
             "time": "2014-07-11",
             "name": "张教主",
             "headportrait": "picture/head/h8.jpg",
             "comment": "+1",
-            "floor": "193"
+            "floor": "23"
         },
         {
             "time": "2014-07-11",
             "name": "无名氏",
             "headportrait": "picture/head/h9.jpg",
             "comment": "兰州烧饼23333",
-            "floor": "192"
+            "floor": "22"
         },
         {
             "time": "2014-07-11",
             "name": "球王",
             "headportrait": "picture/head/h10.jpg",
             "comment": "我看好巴西队",
-            "floor": "191"
+            "floor": "21"
         }
     ]
 }

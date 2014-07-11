@@ -1,75 +1,75 @@
 ﻿ {
-    "count": 200,
+    "count": 30,
     "comment": [
         {
             "time": "2014-07-11",
             "name": "我是背景",
             "headportrait": "picture/head/h11.jpg",
             "comment": "丧（干）心（得）病（漂）狂（亮）",
-            "floor": "190"
+            "floor": "20"
         },
         {
             "time": "2014-07-11",
             "name": "阿粉",
             "headportrait": "picture/head/h4.jpg",
             "comment": "我支持阿根廷，有种把我按在键ashfjaggadhfajshfasfafg",
-            "floor": "189"
+            "floor": "19"
         },
         {
             "time": "2014-07-11",
             "name": "小苹果",
             "headportrait": "picture/head/h3.jpg",
             "comment": "今天吃了小苹果，感觉自己萌萌哒。",
-            "floor": "188"
+            "floor": "18"
         },
         {
             "time": "2014-07-11",
             "name": "小黄",
             "headportrait": "picture/head/h2.jpg",
             "comment": "挺德国",
-            "floor": "187"
+            "floor": "17"
         },
         {
             "time": "2014-07-11",
             "name": "希特勒",
             "headportrait": "picture/head/h12.jpg",
             "comment": "支持德国，阿根廷必败",
-            "floor": "186"
+            "floor": "16"
         },
         {
             "time": "2014-07-11",
             "name": "俾斯麦",
             "headportrait": "picture/head/h5.jpg",
             "comment": "支持德国",
-            "floor": "185"
+            "floor": "15"
         },
         {
             "time": "2014-07-10",
             "name": "周伯通",
             "headportrait": "picture/head/h7.jpg",
             "comment": "学习热情不够！",
-            "floor": "184"
+            "floor": "14"
         },
         {
             "time": "2014-07-10",
             "name": "胖纸",
             "headportrait": "picture/head/h8.jpg",
             "comment": "征男友",
-            "floor": "183"
+            "floor": "13"
         },
         {
             "time": "2014-07-10",
             "name": "高密的赵雷",
             "headportrait": "picture/head/h9.jpg",
             "comment": "23333",
-            "floor": "182"
+            "floor": "12"
         },
         {
             "time": "2014-07-10",
             "name": "某某队长",
             "headportrait": "picture/head/h13.jpg",
             "comment": "这次又没考好，只有99。。。",
-            "floor": "181"
+            "floor": "11"
         }
     ]
 }

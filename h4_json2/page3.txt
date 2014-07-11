@@ -1,75 +1,75 @@
 ﻿{
-  "count": 200,
-  "news": [
+  "count": 30,
+  "comment": [
     {
       "time": "2014-07-10",
       "name": "我是背景",
-	  "headportrait" : "http://p2.qqgexing.com/kongjianpifu/20120820/1411/5031d51939b4a_256x.jpg",
+	  "headportrait" : "picture/head/h11.jpg",
 	  "comment" : "丧（干）心（得）病（漂）狂（亮）",
-	  "floor" : "180"
+	  "floor" : "10"
     },
 	{
       "time": "2014-07-10",
       "name": "死蚂蚁",
-	  "headportrait" : "http://img3.imgtn.bdimg.com/it/u=809179039,1096544150&fm=23&gp=0.jpg",
+	  "headportrait" : "picture/head/h14.jpg",
 	  "comment" : "躺赢了。。。",
-	  "floor" : "179"
+	  "floor" : "9"
     },
 	{
       "time": "2014-07-10",
       "name": "小受郭嘉",
-	  "headportrait" : "http://img1.imgtn.bdimg.com/it/u=806510310,4212741479&fm=23&gp=0.jpg",
+	  "headportrait" : "picture/head/h15.jpg",
 	  "comment" : "..." ,
-	  "floor" : "178"
+	  "floor" : "8"
     },
 	{
       "time": "2014-07-10",
       "name": "香香",
-	  "headportrait" : "http://img1.imgtn.bdimg.com/it/u=191408055,315471370&fm=23&gp=0.jpg",
+	  "headportrait" : "picture/head/h16.jpg",
 	  "comment" : "......" ,
-	  "floor" : "177"
+	  "floor" : "7"
     },
 	{
       "time": "2014-07-10",
       "name": "丞相",
-	  "headportrait" : "http://img0.imgtn.bdimg.com/it/u=1852322053,1074695567&fm=23&gp=0.jpg",
+	  "headportrait" : "picture/head/h17.jpg",
 	  "comment" : "......." ,
-	  "floor" : "176"
+	  "floor" : "6"
     },
 	{
       "time": "2014-07-10",
       "name": "妙脆角",
-	  "headportrait" : "http://img1.imgtn.bdimg.com/it/u=4105702786,670190611&fm=23&gp=0.jpg",
+	  "headportrait" : "picture/head/h18.jpg",
 	  "comment" : "黄天也死了" ,
-	  "floor" : "175"
+	  "floor" : "5"
     },
 	{
-      "time": "2014-07-10",
+      "time": "2014-07-9",
       "name": "燕人",
-	  "headportrait" : "http://img3.imgtn.bdimg.com/it/u=3473520944,3529177049&fm=23&gp=0.jpg",
+	  "headportrait" : "picture/head/h19.jpg",
 	  "comment" : "杀*2" ,
-	  "floor" : "174"
+	  "floor" : "4"
     },
 	{
-      "time": "2014-07-10",
+      "time": "2014-07-9",
       "name": "拆迁队长",
-	  "headportrait" : "http://img3.imgtn.bdimg.com/it/u=4291370891,1205300780&fm=21&gp=0.jpg",
+	  "headportrait" : "picture/head/h20.jpg",
 	  "comment" : "你的牌太多了*3" ,
-	  "floor" : "173"
+	  "floor" : "3"
     },
 	{
-      "time": "2014-07-10",
+      "time": "2014-07—9",
       "name": "老当益壮",
-	  "headportrait" : "http://img0.imgtn.bdimg.com/it/u=2850013932,1039308084&fm=23&gp=0.jpg",
+	  "headportrait" : "picture/head/h21.jpg",
 	  "comment" : "中" ,
-	  "floor" : "172"
+	  "floor" : "2"
     },
 	{
-      "time": "2014-07-10",
+      "time": "2014-07-9",
       "name": "妙脆角",
-	  "headportrait" : "http://img1.imgtn.bdimg.com/it/u=4105702786,670190611&fm=23&gp=0.jpg",
+	  "headportrait" : "picture/head/h18.jpg",
 	  "comment" : "杀我我有闪" ,
-	  "floor" : "171"
+	  "floor" : "1"
     }
     
   ]
