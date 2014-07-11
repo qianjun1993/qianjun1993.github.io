@@ -120,6 +120,7 @@ function state_Change_comment()
 
 function showcomment()
 {
+	$('#comments').empty();
 	var commentJson = JSON.parse(xmlhttp.responseText);
 	for(var i = 0 ; i < commentJson.comment.length; i++)
 	{
