@@ -68,7 +68,7 @@
             "time": "2014-07-10",
             "name": "某某队长",
             "headportrait": "picture/head/h13.jpg",
-            "comment": "这次右没考好，只有99。。。",
+            "comment": "这次又没考好，只有99。。。",
             "floor": "181"
         }
     ]
