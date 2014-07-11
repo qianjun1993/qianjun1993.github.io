@@ -1,8 +1,9 @@
 ﻿{
-    "picture": [
+    "picture" : 
+	[
 	{
 	    "address" :"http://y0.ifengimg.com/2014/0710/wm_2b1d0c4936cc2142a0f3eff0a25663a4.jpg",
-		"title" : "半决赛-点球大战 阿根廷4-2荷兰",
+		"title" : "半决赛 -点球大战 阿根廷4-2荷兰",
 		"link" : "http://2014.ifeng.com/pic/r/detail_2014_07/10/37257543_0.shtml"
 	},
 	{
@@ -30,5 +31,5 @@
 		"title" : "1/4决赛 德国1-0法国",
 		"link" : "http://2014.ifeng.com/pic/r/detail_2014_07/05/37177927_0.shtml"
 	}
-]
+	]
 }
