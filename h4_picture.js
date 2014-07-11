@@ -105,6 +105,7 @@ function showpicture()
         if(x < $("img").width()/2) {prepicture();}
 		else { nextpicture();}
     });
+	loadjson('/h4_json2/page1.txt',2);
 	timer();
 }
 
