@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>cellular automata</title>
+
+</head>
+
+<body>
+<div id = "wrap">
+<canvas id = "myCanvas"></canvas>
+<div id = "GameTitle">Game Of Life</div>
+<div id = "GameControl">
+<table id = "GameData">
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+<tr><td></td></tr>
+</table>
+<form id = "GameChoose" >
+设置横向细胞数:<input type=“number” name="row" min="10" max="500" step="1" value="200"/><br/>
+设置纵向细胞数:<input type=“number” name="line" min="10" max="500" step="1" value="200"/><br/>
+设置帧数:<input type=“number” name="fps" min="1" max="100" step="1" value="30"/><br/>
+设置初始细胞存活率:<input type=“number” name="rate" min="0" max="1" step="0.01" value="0.1"/><br/>
+</form>
+<div id = "switch"></div>
+<div id="refresh"></div>
+</div>
+</div>
+
+</body>
+<script type='text/javascript' src='jquery-2.1.1.min.js'></script>
+<script type='text/javascript' src="inside.js"></script>
+<script type='text/javascript' src="cellular automata.js"></script>
+<link href='cellular.css' rel='stylesheet' type='text/css'>
+</html>

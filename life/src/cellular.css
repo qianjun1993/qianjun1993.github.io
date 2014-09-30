@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,input,textarea,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,i,em{margin:0;padding:0;font-style:normal;}
+body{
+	background-color:#666;
+	overflow-x: hidden;
+	-moz-user-select: none; 
+	-webkit-user-select: none;  /*webkit浏览器*/
+	-ms-user-select: none;   /*IE10*/
+	-khtml-user-select: none; /*早期浏览器*/
+	user-select: none;
+}
+
+#myCanvas{
+	position:absolute;
+	left:50px;
+	top:20px;	
+	width:500px;
+	height:500px;
+}
+
+#GameTitle{
+	position:absolute;
+	left:620px;
+	top:20px;	
+	width:500px;
+	height:50px;
+	font-size:50px;
+	font-family:微软雅黑;
+	color:red;	
+}
+
+
+#GameControl{
+	position:absolute;
+	left:610px;
+	top:100px;	
+	width:400px;
+	height:420px;
+	font-size:10px;
+	font-family:微软雅黑;
+	color:red;
+}
+
+#GameData{
+	position:absolute;
+	top:50px;
+	left:0px;
+	width:200px;
+	height:200px;
+	font-size:16px;
+	font-family:微软雅黑;
+	color:black;
+}
+
+#GameChoose{
+	position:absolute;
+	top:60px;
+	left:200px;
+	width:200px;
+	height:200px;
+	font-size:16px;
+	font-family:微软雅黑;
+	color:black;
+}
+
+
+#switch{
+	top:300px;
+	left:0px;
+	width:50px;
+	height:50px;
+	position:absolute;
+	background-image:url(1.png);
+	background-position:center;
+	background-size:100px 100px;
+}
+
+#refresh{
+	top:300px;
+	left:100px;
+	width:50px;
+	height:50px;
+	position:absolute;
+	background-image:url(3.png);
+	background-position:center;
+	background-size:100px 100px;
+}
+
